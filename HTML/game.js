@@ -4,6 +4,7 @@ class game{
         this.context = null;
         this.init();
         this.loop();
+        // this.pressedkey = null;
     }
 
     init() {
@@ -15,6 +16,7 @@ class game{
         this.snake = new snake(this);
         this.food = new food(this);
     }
+
 
     loop() {
         this.update();
@@ -36,4 +38,4 @@ class game{
     }
 }
 
-var g = new game();// khởi tạo game
+let g = new game();// khởi tạo game

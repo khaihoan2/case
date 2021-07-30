@@ -1,4 +1,4 @@
-class food{
+class food {
     constructor(game) {
         this.game = game;
         this.x = 0;
@@ -8,8 +8,8 @@ class food{
     }
 
     update() {
-        this.x = (Math.floor(Math.random()* (19 - 0)) + 0)*this.grid;
-        this.y = (Math.floor(Math.random()* (19 - 0)) + 0)*this.grid;
+        this.x = (Math.floor(Math.random() * (19 - 0)) + 0) * this.grid;
+        this.y = (Math.floor(Math.random() * (19 - 0)) + 0) * this.grid;
     }
 
     draw() {
